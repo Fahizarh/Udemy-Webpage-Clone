@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.new-header{
+    width: 100%;
+    height: 0.8rem;
+    background: linear-gradient(90deg, rgb(100, 91, 83) 0%, rgb(235, 82, 82) 18.23%, rgb(247, 143, 47) 34.37%, rgb(244, 193, 81) 48.96%, rgb(82, 187, 118) 66.15%, rgb(38, 165, 215) 82.29%, rgb(224, 105, 183) 100%);
+}
+
+
+.header{
+    background-color: #5902EC;
+    max-width: 100%;
+    background-color: linear-gradient(90deg, #645B53 0%, #EB5252 18.23%, #F78F2F 34.37%, #F4C151 48.96%, #52BB76 66.15%, #26A5D7 82.29%, #E069B7 100%);
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.normal{
+    font-weight: normal;
+}
+
+.search{
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+    padding: 10px;
+    padding-right: 620px;
+    border-radius: 30px;
+    border-width: 1px;
+    background-color: #f7f9fa;
+}
+
+input[type="search"]::placeholder{
+    text-align: right;
+}
+
+.navbar{
+    display: flex;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    box-shadow: 0px 3px 5px #DDDDDD;
+}
+
+.logo{
+    padding-top: 0;
+}
+
+.lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lists li{
+    margin: 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.login{
+    border: 1px solid;
+    padding: 5px 12px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.signup{
+    background-color: black;
+    color: white;
+    padding: 6px 10px;
+    border: 1px solid;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.browser{
+    border: 1px solid;
+    padding-top: 8.5px;
+    padding-bottom: 3.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.udemy{
+    width: 75%;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 0;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.main-content{
+    position: absolute;
+    left: 220px;
+    top: 100px;
+    border: 2px white;
+    box-shadow: 0px 3px 5px #DDDDDD;
+    display: inline-block;
+    background-color: white;
+    padding: 20px 25px;
+    margin-top: 40px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.main-content p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 3px;
+}
+
+.courses{
+    display: flex;
+}
+
+.courses .item{
+    margin: 10px;
+    font-weight: bold;
+}
+
+section{
+    margin-left: 180px;
+    margin-top: 38px;
+}
+
+section h1{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 25px;
+}
+
+.section p{
+    margin-top: 3px;
+}
+
+.python-courses{
+    margin-top: 2px;
+    border: 0.5px solid rgba(0,0,0,.4);
+    padding: 20px;
+    width: 920px;
+}
+.python-courses h4{
+    font-size: 15px;
+}
+
+.python-courses p{
+    width: 600px;
+}
+
+button{
+    font-weight: bold;
+    border: 1px solid;
+    padding: 10px;
+    background-color: white;
+}
+
+.checked{
+    color: orange;
+}
+
+.images{
+    display: flex;
+    margin-top: 12px;
+    line-height: 15px;
+}
+
+.images div{
+    margin-right: 2px;
+}
+
+.images h6{
+    font-size: 10px;
+    width: 150px;
+}
+
+.images p{
+    width: 180px;
+    font-size: 8px;
+}
+
+.title{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.price{
+    font-weight: bold;
+
+}
+
+.img img{
+    border: 0.5px solid rgba(0,0,0,.4);
+    box-shadow: 0px 3px 5px #DDDDDD;
+
+}
+
+.best{
+    background-color: #EBD671;
+    display: inline-block;
+    padding: 0px 5px;
+    max-width: 60px;
+    font-weight: bold;
+}
+
+.info{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.view{
+    font-size: 15px;
+    margin: 10px;
+    padding-left: 170px;
+    padding-top: 30px;
+}
+
+.section2{
+    display: flex;
+    width: 1100px;
+    margin-left: 180px;
+}
+
+.section2 div{
+    margin-left: 5px;
+}
+
+.img2 img{
+    border: 0.5px solid rgba(0,0,0,.4);
+    box-shadow: 0px 3px 5px #DDDDDD;
+}
+
+.section2 h6{
+    font-size: 10px;
+    width: 160px;
+}
+
+.section2 p{
+    width: 180px;
+    font-size: 8px;
+}
+
+.section3{
+    display: flex;
+    width: 1100px;
+    margin-left: 180px;
+    flex-wrap: wrap;
+}
+
+.section3 div{
+    margin-right: 8px;
+}
+
+.section3 img{
+    width: 220px;
+    height: 220px;
+}
+
+.section3 h6{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.featured{
+    background-color: #f7f9fa;
+    width: 110%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.featured-topics{
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+}
+
+.container div{
+    margin-right: 120px;
+}
+
+.container h5{
+    font-size: 13px;
+}
+
+.container a{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container p{
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+.explore{
+    margin-top: 20px;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 8px 10px;
+    background-color: #f7f9fa;
+}
+
+.teach img{
+    position: absolute;
+    bottom: 70px;
+    left: 150px;
+    position: relative;
+}
+
+.teach div{
+    position: absolute;
+    margin-left: 20px;
+    right: 200px;
+    padding-top: 80px;
+}
+
+.teach-text h5{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.teach-text p{
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.teach, .business{
+    display: flex;
+}
+
+.start{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+
+.another{
+    background-color: #f7f9fa;
+    width: 110%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 180px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+
+}
+
+.image{
+    position: absolute;
+    right: 190px;
+    top: 2600px;
+}
+
+.img1{
+    margin-left: 150px;
+    position: relative;
+    padding-bottom: 0px;
+}
+.business div{
+    position: absolute;
+    right: 600px;
+}
+
+.business p{
+    position: absolute;
+    top: 200px;
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 150px;
+}
+
+.another h5{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.udemy-bus{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+
+.imgg{
+    float: left;
+    margin-left: 300px;
+}
+
+.business2 .imgg{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.contain div{
+    margin-top: 400px;
+    padding-top: 100px;
+}
+
+.contain h5{
+    width: 400px;
+    margin-left: 600px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contain p{
+    width: 400px;
+    margin-left: 600px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+.btttn{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+
+.containerdiv{
+    margin-top: 180px;
+    display: flex;
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+}
+
+.containerdiv div{
+    padding-top: 20px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+
+.logocopyright{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logocopyright img{
+    margin-left: 30px;
+}
+
+.logocopyright p{
+    font-size: 8px;
+    margin-top: 38px;
+    margin-left: 1050px;
+}
+
+
